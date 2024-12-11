@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center flex-column align-items-center">
+                <div class="item w-75  p-5 ">
+                    <h1 class="text-center">Smart Login System</h1>
+                    <input id="fullName" class="form-control my-3" placeholder="Enter Your Name" type="text">
+                    <input id="email" class="form-control my-3" placeholder="Enter Your Email" type="email">
+                    <input id="password" class="form-control my-3" placeholder="Enter Your Password" type="password">
+                    <div class="success"></div>
+                    <button onclick="addUser()" class="login-btn btn btn-outline-info w-100 my-3" type="submit">Sign Up</button>
+                    <p class="text-white my-1 text-center">Don’t have an account?<a href="index.html"> Sign In</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>
